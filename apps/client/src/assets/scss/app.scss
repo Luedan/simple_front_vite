@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './components/fonts.scss';
+
+
+@layer base {
+    * {
+        min-width: 0;
+        font: inherit;
+        font-family: poppins;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    img,
+    video,
+    svg {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100dvh;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-wrap: balance;
+    }
+
+    p {
+        text-wrap: pretty;
+    }
+}
+
+@layer components {
+    @import "./components/white-text.scss";
+}

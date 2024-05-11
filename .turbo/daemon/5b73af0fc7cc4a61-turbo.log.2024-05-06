@@ -1,0 +1,1 @@
+2024-05-06T22:53:42.893890Z  WARN turborepo_filewatch: encountered error watching filesystem enumerating recursive watch: IO error for operation on /home/wow-desarrollos/WOW_DESARROLLOS/CREDYFAST/FRONTEND-CREDYFAST/node_modules/.pnpm/turbo@1.13.3/node_modules/turbo_tmp_182355: No such file or directory (os error 2)
